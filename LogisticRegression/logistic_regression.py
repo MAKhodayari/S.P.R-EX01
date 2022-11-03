@@ -2,7 +2,7 @@ import utilities as utl
 from sklearn.model_selection import train_test_split
 
 
-X, y = utl.open_linear()
+X, y = utl.open_logistic()
 
 X = utl.normalize(X)
 X.insert(0, 'X0', 1)
